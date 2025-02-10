@@ -4,7 +4,7 @@ extends Control
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	print("this was coded in godot")
-	print("source code: ")
+	print("source code: https://github.com/CrazyKitty357/testmagd")
 	await get_tree().create_timer(0.1).timeout
 	get_tree().quit()
 
